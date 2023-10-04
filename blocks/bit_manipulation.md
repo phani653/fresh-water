@@ -45,3 +45,9 @@
    *  So do n <<< 3 which is `n` multiplied by 8 (2 power 3).
    *  Now subtract n from the above answer => 8b-n = 7n
  
+* For 1 to n numbers, count how many set bits a number has.
+   * If we add zero at the end of the binary representation it is equal to n*2
+   * If we add one at the end of the binary representation is equal to N*2 + 1
+   *  This means, if we want to know number of set bits in n -> it is equal to number of set bits in n/2 + n%2
+   *  `int [] ans = new int[n+1]` ans[0]=0; then `for i=0 to n, ans[i]= ans[i/2]+i%2`
+ 
