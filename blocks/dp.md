@@ -101,5 +101,13 @@ class Solution {
 }
 ```
 
+### 7) Coin Change
+https://leetcode.com/problems/coin-change/description/ <br>
+
+* Each time either you include a coin or you don't include it. Ex: coins [1,2,5], target = 11. If we include 5=> we need to find solution for [1,2], target = 6, and if we don't include 5, then we need to find the solution for [1,2,5], target=11.
+* We can observe that, amount/target can take any value from 0 to `target` given. With having fewer or all elements at that stage.
+* So, we need to find solution for each and every amount from 1 to target, how many coins are required.
+* Each time you include the coin or don't include the coin
+
 
 * https://leetcode.com/problems/max-dot-product-of-two-subsequences/solutions/648528/Finally-a-diagram-to-make-understanding-easy/
