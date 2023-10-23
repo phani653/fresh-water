@@ -35,3 +35,5 @@
 
 * Need: to return int[][]. But this can't grow dynamically.And List<List<>> is not a best choice. as we can't convert back to 2D array.
 * Sol: `List<int[]> result = new LinkedList<>();` keep add to the result and at the end `return result.toArray(new int[result.size()][]);`
+<br>
+* ArrayList declaration & initialization `new ArrayList<>(Arrays.asList(nums[ind], nums[left], nums[right]))`
