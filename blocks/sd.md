@@ -34,3 +34,11 @@ Base62
 * The length of a Base62-encoded string varies based on the value it represents. Larger values will result in longer strings.
 * URL-Safe: Base62 is often preferred in scenarios where the encoded data will be included in URLs. The choice of characters ensures that Base62-encoded strings are safe for inclusion in URLs without the need for URL encoding.
 
+
+
+* Consistent Hashing, Simple Hashing - to decide which cached thing goes to which cache shard.
+* Round robin vs Least Connection Method - Load balancing algo
+* LRU for cache
+* Sql vs NoSql
+* System APIs
+
