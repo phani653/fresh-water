@@ -1,5 +1,9 @@
+* Stack : `Stack<Character> stk = new Stack<>();`
+* Stack has `push, pop, and peek`. Have to use pop explicitly to remove elements. 
+* Processing char by char from a String : `for(char ch: s.toCharArray())`
 * LinkedList<TreeNode> que = new LinkedList<TreeNode><>();
     - que.poll() -> removes and returns the first element of the list
+* HashSet: `HashSet<Integer> set = new HashSet<>();`
 * PriorityQueue<Integer> pq = new PriorityQueue<>();
      * By default above `pq` is min-heap.
      * If we want max heap, need to initialization such a way that `new PriorityQueue<>(Collections.reverseOrder())`;
@@ -37,3 +41,4 @@
 * Sol: `List<int[]> result = new LinkedList<>();` keep add to the result and at the end `return result.toArray(new int[result.size()][]);`
 <br>
 * ArrayList declaration & initialization `new ArrayList<>(Arrays.asList(nums[ind], nums[left], nums[right]))`
+* int Array length: `ary.length` - String length - `str.length()`
