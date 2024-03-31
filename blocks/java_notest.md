@@ -40,5 +40,15 @@
 * Need: to return int[][]. But this can't grow dynamically.And List<List<>> is not a best choice. as we can't convert back to 2D array.
 * Sol: `List<int[]> result = new LinkedList<>();` keep add to the result and at the end `return result.toArray(new int[result.size()][]);`
 <br>
-* ArrayList declaration & initialization `new ArrayList<>(Arrays.asList(nums[ind], nums[left], nums[right]))`
+
+* https://medium.com/leetcode-patterns/leetcode-pattern-3-backtracking-5d9e5a03dc26
+* https://www.linkedin.com/posts/sumitlad_i-spent-3-hours-collecting-15-blogs-that-activity-7179351787047411712-Q7RV/?utm_source=share&utm_medium=member_android
+
+
+
+---------
+####### Syntax
+* Adding numbers as a List<Integer> to a List `triplets.add(new ArrayList<>(Arrays.asList(nums[ind], nums[left], nums[right])));`
 * int Array length: `ary.length` - String length - `str.length()`
+* ArrayList declaration & initialization `new ArrayList<>(Arrays.asList(nums[ind], nums[left], nums[right]))`
+
