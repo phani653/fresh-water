@@ -23,3 +23,12 @@
 * 
 
 #### VPN:
+
+#### Elastic IP Addresses:
+
+#### Different EC2 
+
+#### RBAC
+* Roll-based access control
+* 
+
