@@ -26,6 +26,17 @@
 
 #### Elastic IP Addresses:
 
+
+#### S3:
+Durability - 99.(11 9's) one in 100Billion & Availability (99.99%) 
+* S3 Standard
+* S3 Standard - IA (Infrequent Access)
+* S3 Intelligent tiering
+* S3 One Zone - IA
+* S3 Glacier
+* S3 Glacier Deep Archive
+  
+
 #### Different EC2 
 
 #### RBAC
