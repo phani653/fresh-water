@@ -47,8 +47,12 @@
 
 
 ---------
-####### Syntax
 * Adding numbers as a List<Integer> to a List `triplets.add(new ArrayList<>(Arrays.asList(nums[ind], nums[left], nums[right])));`
 * int Array length: `ary.length` - String length - `str.length()`
 * ArrayList declaration & initialization `new ArrayList<>(Arrays.asList(nums[ind], nums[left], nums[right]))`
 
+-----------
+###### Graphs
+* For Graph problems first create adj list or adj matrix from the input.
+* Most of the problems can be solved by DFS or BFS
+* 
