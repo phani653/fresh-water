@@ -62,4 +62,5 @@
 ###### Graphs
 * For Graph problems first create adj list or adj matrix from the input.
 * Most of the problems can be solved by DFS or BFS
+* Creating list of Arrays: `List<Integer>[] adjList = new ArrayList[n];` -> this helps while creating adj List
 * 
