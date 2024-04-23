@@ -45,7 +45,12 @@
 
 * https://medium.com/leetcode-patterns/leetcode-pattern-3-backtracking-5d9e5a03dc26
 * https://www.linkedin.com/posts/sumitlad_i-spent-3-hours-collecting-15-blogs-that-activity-7179351787047411712-Q7RV/?utm_source=share&utm_medium=member_android
-
+----------
+###### Strings
+* str.length() for string length
+* String.valueOf(number) or String.valueOf(char[] charAry) -> to convert char array to String
+* convert int to char : `(char)(number + '0')
+* convert char to int: `char - '0'`
 
 
 ---------
