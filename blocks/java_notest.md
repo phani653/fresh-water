@@ -57,6 +57,12 @@
 * Adding numbers as a List<Integer> to a List `triplets.add(new ArrayList<>(Arrays.asList(nums[ind], nums[left], nums[right])));`
 * int Array length: `ary.length` - String length - `str.length()`
 * ArrayList declaration & initialization `new ArrayList<>(Arrays.asList(nums[ind], nums[left], nums[right]))`
+---------
+###### HashSet
+* HashSet<String> set = new HashSet<>();
+* `set.add(e)` -> returns true if set doesn't contain the element. returns false if the element is already present.
+* `set.size()`
+* `set.contains(obj)` -> checking if set contains the specified object or not.
 
 -----------
 ###### Graphs
